@@ -326,6 +326,7 @@ rule generate_self_contained_header_tests
     :
           [ thread-test test_shared_mutex.cpp ]
           [ thread-test test_shared_mutex_part_2.cpp ]
+          [ thread-test test_shared_mutex_multiple_readers_single_writer.cpp ]
           [ thread-test test_shared_mutex_timed_locks.cpp ]
           [ thread-test test_shared_mutex_timed_locks_chrono.cpp ]
           #uncomment the following once these works on windows
